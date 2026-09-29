@@ -1,9 +1,9 @@
 Bundled font and equation-rendering notices
 ==========================================
 
-Inter: Copyright 2020 The Inter Project Authors
-https://github.com/rsms/inter
-https://github.com/google/fonts/blob/main/ofl/inter/OFL.txt
+Raleway: Copyright 2010 The Raleway Project Authors (impallari@gmail.com), with Reserved Font Name "Raleway".
+https://github.com/google/fonts/tree/main/ofl/raleway
+https://github.com/google/fonts/blob/main/ofl/raleway/OFL.txt
 
 Manrope: Copyright 2018 The Manrope Project Authors
 https://github.com/googlefonts/manrope
