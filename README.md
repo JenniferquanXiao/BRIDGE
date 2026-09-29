@@ -18,6 +18,8 @@ Publish from **main → / (root)** in Settings → Pages. GitHub Pages republish
 
 ## Update
 
-Regenerate the static export from the original website project, then run its `scripts/export-github-pages.mjs` to prepare this deployment checkout. Review, commit, and push the changed deployment files. Local edits are not automatically pushed publicly.
+Regenerate the static export from the original website project, refresh its browser font audit when the page changes, then run `scripts/export-github-pages.mjs` to prepare this deployment checkout. Review, commit, and push the changed deployment files. Local edits are not automatically pushed publicly.
 
 This repository contains only the static website and its referenced public assets, including the downloadable original manuscript. It does not contain the application source, experiment logs, or model checkpoints. The local and standalone shareable HTML versions remain in the original project folder.
+
+The deployment omits a social-preview image, unused font variants/language subsets, and duplicate legacy font formats. The remaining WOFF2 fonts preserve the page typography and rendered equations in current browsers. Cleanup does not rewrite earlier commits.
